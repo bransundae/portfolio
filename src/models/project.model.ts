@@ -12,7 +12,7 @@ export class Project extends Entity {
   @property({
     type: 'string',
     required: true,
-    default: new,
+    default: 'new',
   })
   name: string;
 
